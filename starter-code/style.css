@@ -1,55 +1,50 @@
 h1 {
 	color: rgb(2, 132, 130);
+	text-align: center;
 }
 
 h2 {
 	color:#ffd700;
+	text-align: center;
+}
+
+p {
+	text-align: center;
 }
 
 .board {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
-	float: left;
-	margin: 8%;
 }
 
-.cardOne, .cardTwo, .cardThree, .cardFour {
+.card {
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
-	background: yellow;
+	background-color: yellow;
 	border-radius: 10px;
-	display: inline-block;
-	margin: 60px;
+	margin: 8%;
+	float: left;
+	/*display: inline-block;*/
 }
 
 .name {
 	color: #ff0000;
 }
 
-h1, h2, p {
-	text-align: center;
-}
 
 nav {
 	background-color: #808080;
 	font-family: Arial, sans-serif;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content:" ";
-	clear: both;
-	height: 0;
-	font-size: 0;
-}
+
 
 a {
 	background-color: #ffbf00;
 	color: white;
-	text-decoration: none;
+/*	text-decoration: none; */
 	display: block;
 	float: left;
 	padding: 35px;	
@@ -61,8 +56,20 @@ a:hover {
 
 footer {
 	background-color: #808080;
+	text-align: center;
+	color: white;
 }
 
-section {
-	overflow: auto;
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content:" ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+img {
+	height: 200px;
+	width: 150px;
 }
